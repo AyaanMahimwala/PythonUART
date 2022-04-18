@@ -1,0 +1,33 @@
+Dependencies for Project 'Python', Target 'Python': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\startup.s)(0x625CB237)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_Python-IC:\Users\ayaan\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ayaan\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Python.c)(0x625DC5D0)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_Python-IC:\Users\ayaan\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ayaan\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\python.o --omf_browse .\python.crf --depend .\python.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (../inc/PLL.h)(0x620353E5)
+I (../inc/CortexM.h)(0x620353E3)
+I (../inc/UART0int.h)(0x620353E5)
+I (../inc/LaunchPad.h)(0x620353E4)
+I (../inc/SysTickInts.h)(0x620353E5)
+I (../inc/tm4c123gh6pm.h)(0x620353E5)
+F (..\inc\PLL.c)(0x620353E5)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_Python-IC:\Users\ayaan\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ayaan\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (..\inc\../inc/PLL.h)(0x620353E5)
+I (..\inc\../inc/tm4c123gh6pm.h)(0x620353E5)
+F (..\inc\UART0int.c)(0x620353E5)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_Python-IC:\Users\ayaan\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ayaan\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\uart0int.o --omf_browse .\uart0int.crf --depend .\uart0int.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B96FA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B96F8)
+I (..\inc\../inc/tm4c123gh6pm.h)(0x620353E5)
+I (..\inc\../inc/CortexM.h)(0x620353E3)
+I (..\inc\../inc/FIFO.h)(0x620353E4)
+I (..\inc\../inc/UART0int.h)(0x620353E5)
+F (..\inc\LaunchPad.c)(0x620353E4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_Python-IC:\Users\ayaan\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ayaan\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\launchpad.o --omf_browse .\launchpad.crf --depend .\launchpad.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (..\inc\../inc/LaunchPad.h)(0x620353E4)
+I (..\inc\../inc/tm4c123gh6pm.h)(0x620353E5)
+I (..\inc\../inc/CortexM.h)(0x620353E3)
+F (..\inc\SysTickInts.c)(0x620353E5)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_Python-IC:\Users\ayaan\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\ayaan\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\systickints.o --omf_browse .\systickints.crf --depend .\systickints.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (..\inc\../inc/tm4c123gh6pm.h)(0x620353E5)
+I (..\inc\../inc/CortexM.h)(0x620353E3)
+I (..\inc\../inc/SysTickInts.h)(0x620353E5)
